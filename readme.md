@@ -3,6 +3,8 @@
 Layout of autotools hello project
 
 [project layout]
+
+```tex
 .
 ├── lib
 │   ├── hello.c
@@ -14,8 +16,13 @@ Layout of autotools hello project
 └── readme.txt
 
 2 directories, 6 files
+```
+
+
 
 [`autoreconf -fiv`]
+
+```tex
 .
 ├── autom4te.cache
 │   ├── output.0
@@ -46,7 +53,10 @@ Layout of autotools hello project
 
 3 directories, 23 files
 
+```
+
 [`mkdir` build]
+```tex
 .
 ├── autom4te.cache
 │   ├── output.0
@@ -77,9 +87,11 @@ Layout of autotools hello project
 └── readme.txt
 
 4 directories, 23 files
+```
 
 
 [`./../configure --prefix=$(pwd)/install` in build/]
+```tex
 .
 ├── autom4te.cache
 │   ├── output.0
@@ -118,8 +130,10 @@ Layout of autotools hello project
 └── readme.txt
 
 6 directories, 29 files
+```
 
 [`make` in build/]
+```tex
 .
 ├── autom4te.cache
 │   ├── output.0
@@ -163,8 +177,10 @@ Layout of autotools hello project
 └── readme.txt
 
 6 directories, 34 files
+```
 
 [after `make install` in build/]
+```tex
 .
 ├── autom4te.cache
 │   ├── output.0
@@ -219,3 +235,4 @@ Layout of autotools hello project
 └── readme.txt
 
 10 directories, 41 files
+```
